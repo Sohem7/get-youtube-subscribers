@@ -16,9 +16,7 @@ app.get('/subscribers/names', async (req, res) => {
 
   if (subscribers.length > 0) {
     const names = subscribers.map((subscriber) => subscriber.name);
-    const subscribedChannel = subscribers.map((subscriber) => subscriber.subscribedChannel)
     res.json(names);
-    res.json(subscribedChannel);
   } else {
     res.status(404).json({ message: 'No subscribers found' });
   }

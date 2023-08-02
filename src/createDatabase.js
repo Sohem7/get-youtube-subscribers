@@ -4,14 +4,19 @@ async function createDatabase() {
   const collection = await connect();
   const subscribers = [
     {
-      _id: '1', // Add unique IDs for each subscriber
-      name: 'John Doe',
-      subscribedChannel: 'Channel A',
+      _id: '3', // Add unique IDs for each subscriber
+      name: 'xyz ',
+      subscribedChannel: 'Channel 5',
     },
     {
-      _id: '2', // Add unique IDs for each subscriber
+      _id: '4', // Add unique IDs for each subscriber
+      name: 'abc',
+      subscribedChannel: 'Channel 4',
+    },
+    {
+      _id: 'dfg', // Add unique IDs for each subscriber
       name: 'Jane Smith',
-      subscribedChannel: 'Channel B',
+      subscribedChannel: 'Channel 4',
     },
   ];
 
