@@ -58,3 +58,6 @@ Contributions are welcome! If you find any issues or want to add new features, f
 
 License
 This project is licensed under the MIT License
+
+## API Documentation
+For detailed API documentation, you can access the Swagger UI by visiting http://localhost:3000/api-docs when the server is running. The Swagger UI provides an interactive interface to explore and test the API endpoints.
